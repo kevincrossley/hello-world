@@ -1,0 +1,26 @@
+
+body {
+	font-family: 'Merriweather', serif;
+	font-size: 12px;
+	background-color: #fcfbef;
+	margin: 50px;
+}
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: #0f6bff;
+    text-align: center;
+}
+p {
+	margin: 20px 120px;
+	text-align: justify;
+	font-size: 16px
+}
+h1{
+    font-weight: bold;
+	font-size: 40px
+}
+
+h2{
+	font-weight: bold;
+}
