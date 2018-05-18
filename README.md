@@ -8,7 +8,6 @@ This line I added from sublime.
 ## hello!
 
 
-engine = 'SQL'
 # IBM SQL 101
 
 This folder contains files related to IBM's cognitive training SQL 101 course taken as part of DevUp training. Uses DB2 Warehouse RMDBS
@@ -84,7 +83,7 @@ WHERE condition
 ex - `SELECT * FROM tablename` to get the whole table
 comparison operators supported by a RMDBS:
 * = 
-* >
+* \>
 * <
 * \>=
 * <=
@@ -99,11 +98,13 @@ where firstname like 'R%'
 ```
 or 
 
-` WHERE pages BETWEEN 290 AND 300`
-
+```SQL
+ WHERE pages BETWEEN 290 AND 300`
+```
 or 
-
-`WHERE country IN ('US', 'UK')`
+```SQL
+WHERE country IN ('US', 'UK')
+```
 
 ### Update
 
@@ -134,9 +135,13 @@ add `GROUP BY ` in `SELECT` statement
 
 
 avoid duplicates 
-`SELECT DISTINCT(columnname) FROM tablename`
+```SQL
+SELECT DISTINCT(columnname) FROM tablename
+```
 or 
-`SELECT columnname, COUNT(columnname) AS columnname2 FROM tablename GROUP BY columnname`
+```SQL
+SELECT columnname, COUNT(columnname) AS columnname2 FROM tablename GROUP BY columnname
+```
 to get a count of the duplicates and group them into the subsets defined by duplicates in specified columnname
 can add the `AS` to name the calculated COUNT column
 
